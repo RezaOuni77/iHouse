@@ -3,8 +3,433 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles/reset.css" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <title>iHouse</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="container">
+        <h2>iHouse</h2>
+      </div>
+    </header>
+    <main>
+      <section class="hero row">
+        <div class="container">
+          <div class="hero-content col-hero">
+            <ul class="row hero-wrapper">
+              <h1 class="title">Find your next dream home here</h1>
+              <div class="frame">
+                <p class="subtitle">
+                  iHouse is the leading real estate marketplace dedicated to
+                  helping buyers, sellers, and renters find information and
+                  inspiration around the place they call home.
+                </p>
+              </div>
+
+              <div class="get-started-second">
+                <a href="#">Get Started</a>
+              </div>
+              <ul class="row details">
+                <li class="happycustomer col-details">
+                  <div class="content row">
+                    <p>
+                      <span class="number">12k</span><span class="plus">+</span>
+                    </p>
+                    <h4>Happy Customers</h4>
+                  </div>
+                </li>
+                <li class="supportcities col-details">
+                  <div class="content row">
+                    <p>
+                      <span class="number">15k</span><span class="plus">+</span>
+                    </p>
+                    <h4>Supported Cities</h4>
+                  </div>
+                </li>
+                <li class="availableListing col-details">
+                  <div class="content row">
+                    <p>
+                      <span class="number">32k</span><span class="plus">+</span>
+                    </p>
+                    <h4>Available Listing</h4>
+                  </div>
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+        <div class="hero-image col-hero">
+          <img src="./assets/images/luke-T.png" />
+          <div class="get-started-first">
+            <a href="#">Get Started</a>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <section class="sale">
+          <h4 class="sale-title">Featured Property for Sale</h4>
+          <div class="sale-list">
+            <ul class="sale-wrapper row">
+              <ul class="sale-holder row">
+                <li class="image">
+                  <picture>
+                    <source
+                      media="(max-width:833px)"
+                      srcset="./assets/images/Rectangle174m.png"
+                    />
+                    <source
+                      media="(min-width:834px) and (max-width:1139px)"
+                      srcset="./assets/images/Rectangle174.png"
+                    />
+                    <source
+                      media="(min-width:1140px)"
+                      srcset="./assets/images/Rectangle174l.png"
+                    />
+                    <img
+                      src="./assets/images/Rectangle174l.png"
+                      alt="iHouse"
+                      style="width: auto"
+                    />
+                  </picture>
+                  <!-- <img
+                    srcset="
+                      ./assets/images/Rectangle174m.png 360w,
+                      ./assets/images/Rectangle174.png  282w,
+                      ./assets/images/Rectangle174l.png 221w
+                    "
+                    sizes="(max-width: 834px) 360px, (max-width: 1139px) 282px, (min-width: 1140px) 221px"
+                    src="./assets/images/Rectangle174.png"
+                    alt="Responsive Image"
+                  /> -->
+                </li>
+                <li class="content row">
+                  <div class="btn-sale">
+                    <a href="#" class="sale-button">FOR SALE</a>
+                  </div>
+                  <h4>Castelletto sopra Ticino, Novara, Italy</h4>
+                  <p class="description">
+                    Harmonious villa on the banks of the Ticino river, with a
+                    private dock and a suggestive view on the banks of the
+                    Ticino river. The splendid villa is surrounded by a park of
+                    almost one hectare, an elegant green expanse.
+                  </p>
+                  <div class="number-wrapper row">
+                    <p class="number">€4,250,000</p>
+                    <div class="btn">
+                      <a href="#" class="button">Details</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <ul class="sale-holder row">
+                <li class="image">
+                  <picture>
+                    <source
+                      media="(max-width:833px)"
+                      srcset="./assets/images/carson.png"
+                    />
+                    <source
+                      media="(min-width:834px) and (max-width:1139px)"
+                      srcset="./assets/images/carson.png"
+                    />
+                    <source
+                      media="(min-width:1140px)"
+                      srcset="./assets/images/carson.png"
+                    />
+                    <img
+                      src="./assets/images/Rectangle174l.png"
+                      alt="iHouse"
+                      style="width: auto"
+                    />
+                  </picture>
+                  <!-- <img
+                    srcset="
+                      ./assets/images/Rectangle174m.png 360w,
+                      ./assets/images/Rectangle174.png  282w,
+                      ./assets/images/Rectangle174l.png 221w
+                    "
+                    sizes="(max-width: 834px) 360px, (max-width: 1139px) 282px, (min-width: 1140px) 221px"
+                    src="./assets/images/Rectangle174.png"
+                    alt="Responsive Image"
+                  /> -->
+                </li>
+                <li class="content row">
+                  <div class="btn-sale">
+                    <a href="#" class="sale-button">FOR SALE</a>
+                  </div>
+                  <h4>Carson City, NV, United States</h4>
+                  <p class="description">
+                    Situated on a spectacular homesite behind private gates in
+                    Clear Creek Tahoe rests this award-winning estate property,
+                    built by one of Lake Tahoe's premier builders, Mark Neave of
+                    NSM Construction.
+                  </p>
+                  <div class="number-wrapper row">
+                    <p class="number">$12,950,000</p>
+                    <div class="btn">
+                      <a href="#" class="button">Details</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <ul class="sale-holder row">
+                <li class="image">
+                  <picture>
+                    <source
+                      media="(max-width:833px)"
+                      srcset="./assets/images/coral.png"
+                    />
+                    <source
+                      media="(min-width:834px) and (max-width:1139px)"
+                      srcset="./assets/images/coral.png"
+                    />
+                    <source
+                      media="(min-width:1140px)"
+                      srcset="./assets/images/coral.png"
+                    />
+                    <img
+                      src="./assets/images/coral.png"
+                      alt="iHouse"
+                      style="width: auto"
+                    />
+                  </picture>
+                  <!-- <img
+                    srcset="
+                      ./assets/images/Rectangle174m.png 360w,
+                      ./assets/images/Rectangle174.png  282w,
+                      ./assets/images/Rectangle174l.png 221w
+                    "
+                    sizes="(max-width: 834px) 360px, (max-width: 1139px) 282px, (min-width: 1140px) 221px"
+                    src="./assets/images/Rectangle174.png"
+                    alt="Responsive Image"
+                  /> -->
+                </li>
+                <li class="content row">
+                  <div class="btn-sale">
+                    <a href="#" class="sale-button">FOR SALE</a>
+                  </div>
+                  <h4>Coral Gables, FL, United States</h4>
+                  <p class="description">
+                    This is the premier home in the esteemed French Village. Its
+                    4,466 square feet offer some of Miami’s finest entertaining
+                    spaces, including the large dining room, elegant living
+                    room, sunny family room, and guest house.
+                  </p>
+                  <div class="number-wrapper row">
+                    <p class="number">$4,750,000</p>
+                    <div class="btn">
+                      <a href="#" class="button">Details</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <ul class="sale-holder row">
+                <li class="image">
+                  <picture>
+                    <source
+                      media="(max-width:833px)"
+                      srcset="./assets/images/cublles.png"
+                    />
+                    <source
+                      media="(min-width:834px) and (max-width:1139px)"
+                      srcset="./assets/images/cublles.png"
+                    />
+                    <source
+                      media="(min-width:1140px)"
+                      srcset="./assets/images/cublles.png"
+                    />
+                    <img
+                      src="./assets/images/cublles.png"
+                      alt="iHouse"
+                      style="width: auto"
+                    />
+                  </picture>
+                  <!-- <img
+                    srcset="
+                      ./assets/images/Rectangle174m.png 360w,
+                      ./assets/images/Rectangle174.png  282w,
+                      ./assets/images/Rectangle174l.png 221w
+                    "
+                    sizes="(max-width: 834px) 360px, (max-width: 1139px) 282px, (min-width: 1140px) 221px"
+                    src="./assets/images/Rectangle174.png"
+                    alt="Responsive Image"
+                  /> -->
+                </li>
+                <li class="content row">
+                  <div class="btn-sale">
+                    <a href="#" class="sale-button">FOR SALE</a>
+                  </div>
+                  <h4>Es Cubells, Baleares, Spain</h4>
+                  <p class="description">
+                    Magnificent luxury villa situated on the top of a mountain
+                    in Es Cubells, with spectacular views of the sea and the
+                    wonderful island of Formentera.
+                  </p>
+                  <div class="number-wrapper row">
+                    <p class="number">€8,500,000</p>
+                    <div class="btn">
+                      <a href="#" class="button">Details</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </ul>
+          </div>
+          <div class="btn-more">
+            <a href="#">load more</a>
+          </div>
+        </section>
+        <section class="rent">
+          <div class="container">
+            <h4>Featured Property for Rent</h4>
+            <ul class="rent-wrapper">
+              <li class="first">
+                <div class="holder">
+                  <img src="./assets/images/Rectangle 169.svg" />
+                  <div class="content">
+                    <div class="btn-rent">
+                      <a href="#" class="rent-button">FOR RENT</a>
+                    </div>
+                    <h3>Mclean, VA, United States</h3>
+                    <p>
+                      Exquisite details abound throughout this modern,
+                      sophisticated residence with large room sizes and open
+                      layout for easy living and entertaining.
+                    </p>
+                    <ul class="row rent-row">
+                      <li class="price">$7,000</li>
+                      <li>
+                        <a href="#" class="button">Details</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="second">
+                <div class="holder">
+                  <img src="./assets/images/Rectangle 169.svg" />
+                  <div class="content">
+                    <div class="btn-rent">
+                      <a href="#" class="rent-button">FOR RENT</a>
+                    </div>
+                    <h3>Mclean, VA, United States</h3>
+                    <p>
+                      Exquisite details abound throughout this modern,
+                      sophisticated residence with large room sizes and open
+                      layout for easy living and entertaining.
+                    </p>
+                    <ul class="row rent-row">
+                      <li class="price">$7,000</li>
+                      <li>
+                        <a href="#" class="button">Details</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="third">
+                <div class="holder">
+                  <img src="./assets/images/Rectangle 169.svg" />
+                  <div class="content">
+                    <div class="btn-rent">
+                      <a href="#" class="rent-button">FOR RENT</a>
+                    </div>
+                    <h3>Mclean, VA, United States</h3>
+                    <p>
+                      Exquisite details abound throughout this modern,
+                      sophisticated residence with large room sizes and open
+                      layout for easy living and entertaining.
+                    </p>
+                    <ul class="row rent-row">
+                      <li class="price">$7,000</li>
+                      <li>
+                        <a href="#" class="button">Details</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="forth">
+                <div class="holder">
+                  <img src="./assets/images/Rectangle 169.svg" />
+                  <div class="content">
+                    <div class="btn-rent">
+                      <a href="#" class="rent-button">FOR RENT</a>
+                    </div>
+                    <h3>Mclean, VA, United States</h3>
+                    <p>
+                      Exquisite details abound throughout this modern,
+                      sophisticated residence with large room sizes and open
+                      layout for easy living and entertaining.
+                    </p>
+                    <ul class="row rent-row">
+                      <li class="price">$7,000</li>
+                      <li>
+                        <a href="#" class="button">Details</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="fifth">
+                <div class="holder">
+                  <img src="./assets/images/Rectangle 169.svg" />
+                  <div class="content">
+                    <div class="btn-rent">
+                      <a href="#" class="rent-button">FOR RENT</a>
+                    </div>
+                    <h3>Mclean, VA, United States</h3>
+                    <p>
+                      Exquisite details abound throughout this modern,
+                      sophisticated residence with large room sizes and open
+                      layout for easy living and entertaining.
+                    </p>
+                    <ul class="row rent-row">
+                      <li class="price">$7,000</li>
+                      <li>
+                        <a href="#" class="button">Details</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="sixth">
+                <div class="holder">
+                  <img src="./assets/images/Rectangle 169.svg" />
+                  <div class="content">
+                    <div class="btn-rent">
+                      <a href="#" class="rent-button">FOR RENT</a>
+                    </div>
+                    <h3>Mclean, VA, United States</h3>
+                    <p>
+                      Exquisite details abound throughout this modern,
+                      sophisticated residence with large room sizes and open
+                      layout for easy living and entertaining.
+                    </p>
+                    <ul class="row rent-row">
+                      <li class="price">$7,000</li>
+                      <li>
+                        <a href="#" class="button">Details</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="btn-more">
+            <a href="#">load more</a>
+          </div>
+        </section>
+        <!-- <div class="load-more2">
+          <a href="#">load more</a>
+        </div> -->
+      </div>
+      <footer>
+        <span class="first">Developed By </span
+        ><span class="second">Reza Ouni</span>
+      </footer>
+    </main>
+  </body>
 </html>
